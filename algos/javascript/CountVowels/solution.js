@@ -5,7 +5,7 @@ function count_vowels(str) {
   }
 
   for (let i = 0; i < str.length; i += 1) {
-      
+
     if (str[i] === "a" || str[i] === "A") {
       count += 1
     } 

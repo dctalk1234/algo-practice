@@ -35,7 +35,16 @@ const countingDups = (arr) => {
  }
 
  //Using .reduce() and nested .forEach
- // TODO
+// const countingDups = (arr) => {      
+//     let countObj = {};
+//     countObj = arr.reduce((countObj, currentVal) => {
+//       const tempArr = currentVal.colors;
+//       tempArr.forEach(color => 
+//        countObj[color] = (countObj[color]) ? countObj[color] + 1 : 1 )
+//        return countObj;
+//     }, {})
+//     console.log(countObj);
+//  }
 
 
 // USING RECURSION
